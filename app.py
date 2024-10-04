@@ -100,6 +100,13 @@ def get_coordinates():
     concatenated_img.save(img_io, 'PNG')
     img_io.seek(0)
 
+    result = {
+        "annotations": annotations,
+        "status": "OPEN"
+    }
+    print(result)
+    # return jsonify(result)
+
     return send_file(img_io, mimetype='image/png')
 
 if __name__ == '__main__':
