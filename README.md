@@ -42,6 +42,10 @@ The server will run locally on port `5000` by default. You can test the API by u
 - Access the API at `http://localhost:5000/`.
 - Use the `/coordinates` endpoint to send an image file for detection and segmentation.
 - The response will be an image with bounding boxes and segmentation masks for detected dental diseases, along with a color-coded palette for easy interpretation.
+- Via Terminal:
+  ```bash
+  curl -X POST http://localhost:5000/coordinates -F "image=@sample_img.jpg" --output output.jpg
+  ```
 
 ## Segmentation Classes
 
@@ -87,7 +91,7 @@ Here is an example of a panoramic dental X-ray image being processed by the mode
 
 ### Input
 
-The original panoramic dental X-ray image that was uploaded for analysis.
+The sample panoramic dental X-ray image that was uploaded for analysis.
 
 ![Sample Input](https://github.com/Loki-Silvres/Dental-Disease-Detection/blob/Flask/sample_img.jpg)
 
