@@ -81,12 +81,23 @@ The detection model is trained to detect the following dental conditions:
 30: Primary teeth
 ```
 
+## Sample Input and Output
+
+Here is an example of a panoramic dental X-ray image being processed by the model.
+
+### Input
+
+The original panoramic dental X-ray image that was uploaded for analysis.
+
+![Sample Input](https://github.com/Loki-Silvres/Dental-Disease-Detection/blob/Flask/sample_img.jpg)
+
+### Output
+
+The same image after processing, with bounding boxes and segmentation masks applied. The palette on the right indicates which color corresponds to each detected condition.
+
+![Sample Output](https://github.com/Loki-Silvres/Dental-Disease-Detection/blob/Flask/output.jpg)
+
 ## Acknowledgments
 
 - Model trained using the dataset available on [Kaggle](https://www.kaggle.com/datasets/lokisilvres/dental-disease-panoramic-detection-dataset).
 
-
-### Notes:
-1. **Model Download:** The link to the Kaggle dataset for downloading the pretrained model is included, with instructions to place it in the project directory.
-2. **Requirements:** Mentioned the installation of Python dependencies via the `requirements.txt`.
-3. **Usage:** Basic instructions for using the Flask API, including the URL and endpoint.
