@@ -55,7 +55,7 @@ def get_coordinates():
     except Exception as e:
         return jsonify({"error": f"Failed to process the image: {str(e)}"}), 400
 
-    results = model(img)
+    results = model.predict(img)
     annotations = []
 
     for detection, class_id in zip(results[0].boxes, results[0].boxes.cls):
