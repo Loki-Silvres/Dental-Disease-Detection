@@ -1,1 +1,0 @@
-# Dental-Disease-Detection
