@@ -101,6 +101,9 @@ The same image after processing, with bounding boxes and segmentation masks appl
 
 ![Sample Output](https://github.com/Loki-Silvres/Dental-Disease-Detection/blob/Flask/output.jpg)
 
+### Sample Video
+[X-Ray_Disease_Detection_Sample_Video.webm](https://github.com/user-attachments/assets/601c36ed-fd09-4d2c-9768-59b1112058b6)
+
 ## Acknowledgments
 
 - Model trained using the dataset available on [Kaggle](https://www.kaggle.com/datasets/lokisilvres/dental-disease-panoramic-detection-dataset).
